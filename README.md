@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=YsLykxnHApg&t=3s
 https://www.youtube.com/watch?v=0Xi7unlq1L4  
 https://www.youtube.com/watch?v=3odRT6zdzqk  
 https://www.youtube.com/watch?v=cPz5tE2EHR4  
-
+Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html  
 
 
 # DMX:  
