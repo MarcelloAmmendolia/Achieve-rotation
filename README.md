@@ -99,8 +99,8 @@ The maximum position (B) needs to be set by the user depending on the switch pos
 To do so, change the "dmx_remapped" parameter in the void loop to match the number of steps chosen.  
 
 Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
-While this has not the runtime problems that comes with microstepping, is also less smooth in the movements,
-even if it's possible to threshold certain levels of acceleration and velocity.  
+While this has not the runtime problems that comes with microstepping, is also less smooth in the movements,  
+even tho, it's possible to threshold certain levels of acceleration and velocity.  
 note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
 
 
