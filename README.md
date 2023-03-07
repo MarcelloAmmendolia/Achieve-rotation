@@ -16,6 +16,12 @@ https://www.youtube.com/watch?v=cPz5tE2EHR4
 Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html  
 
 
+
+## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG  
+## DMX STEP MOTOR N.2 - SHAFT  
+## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
+## DMX STEP MOTOR N.4 - SERVO SYLE - MICROSTEPPED  
+
 # DMX:  
 
 
