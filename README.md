@@ -26,7 +26,7 @@ DMX channel 2: acceleration
 DMX channel 3: direction  
 
 After housing, the motor finds the 0 position.  
-The maximum position needs to be set by the user depending on the switch position.
+The maximum position needs to be set by the user depending on the switch position.  
 Then, the motor rotates from A to B position. 
 The rotation is sensible to the variations in the DMX inputs.
 
