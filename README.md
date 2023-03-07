@@ -99,6 +99,8 @@ note: - definire esatto numero di step da compiere una volta che l'hardware sar√
 
 
 ## DMX STEP MOTOR N.4 - SHAFT  
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/82780678/223529790-eb32a183-75a1-4ff4-bea3-3df1eac0302c.gif)  
+
 For a shaft with continuum movement,
 the library Accelstepper with distances comes handy.  
 See: https://github.com/mateusjunges/accel-stepper-with-distances  
