@@ -31,10 +31,10 @@ DMX channel 1: velocity
 DMX channel 2: acceleration  
 DMX channel 3: direction  NOT ACHIEVED  
 
-After housing, the motor finds the 0 position.  
-The maximum position needs to be set by the user depending on the switch position.  
+After housing, the motor finds the 0 position, wich equals to A position.  
 Then, the motor rotates from A to B position. 
 The rotation is sensible to the variations in the DMX inputs.
+The maximum position (B) needs to be set by the user depending on the switch position. 
 
 Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
 since you don't have a real notion of how many steps you need to complete an action.  
