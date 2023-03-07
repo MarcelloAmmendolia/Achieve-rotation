@@ -20,7 +20,7 @@ Housing:
 
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
 
-![ezgif com-reverse](https://user-images.githubusercontent.com/82780678/223487517-3209c555-cb8b-4760-9436-6b90e9d329e5.gif)  
+![ezgif com-resize](https://user-images.githubusercontent.com/82780678/223498276-6d8e5fbd-bbd3-4514-bdf4-7c42063e5c7e.gif)
 FILE: ARDUINO UNO DMX STEPPER PING PONG.INO  
 
 📌 CONSTANTS:  
