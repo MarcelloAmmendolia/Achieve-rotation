@@ -104,7 +104,7 @@ the library Accelstepper with distances comes handy.
 See: https://github.com/mateusjunges/accel-stepper-with-distances  
 Or, on a regular sketch  
 int distanceToMove = 150; //(mm)  
-int numberOfSteps = distanceToMove*84.2; 
+int numberOfSteps = distanceToMove*84.2;   
 Considering, however, that they are Integral and therefore the accuracy cannot be 100% in case of microstepping   
 
 
