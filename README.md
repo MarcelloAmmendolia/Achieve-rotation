@@ -45,8 +45,15 @@ note: - definire esatto numero di step da compiere una volta che l'hardware sar√
 ## DMX STEP MOTOR N.2 - SHAFT  
 
 
+
+## DMX STEP MOTOR N.4 - POSITION CONTROL - MICROSTEPPED  
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/82780678/223495711-80044d38-4065-490f-9c1e-6d5025e9e710.gif)
+
 ## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
-## DMX STEP MOTOR N.4 - SERVO SYLE - MICROSTEPPED  
+
+
+
 
 # DMX:  
 
