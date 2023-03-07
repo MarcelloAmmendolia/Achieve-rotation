@@ -32,6 +32,7 @@ The rotation is sensible to the variations in the DMX inputs.
 
 Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
 since you don't have a real notion of how many steps you need to complete an action.  
+note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
 
 ## DMX STEP MOTOR N.2 - SHAFT  
 ## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
