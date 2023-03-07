@@ -49,6 +49,30 @@ note: - definire esatto numero di step da compiere una volta che l'hardware sar�
 ## DMX STEP MOTOR N.4 - POSITION CONTROL - MICROSTEPPED  
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/82780678/223495711-80044d38-4065-490f-9c1e-6d5025e9e710.gif)
+FILE: Arduino Uno Dmx Position Control Microstepped 
+
+📌 CONSTANTS:  
+xxx  
+
+▶️ INPUTS:  
+DMX channel 2: Position to move to  
+DMX channel 3: Maximum Acceleration, interpolation between position 0 and target.  
+
+After housing, the motor finds the 0 position.  
+Then, the motor sniffs the bytes coming from the DMX calls,
+matching his position to them. (Example: if 255 is coming from the DMX, the motor will go to the last step of his full rotation).
+The rotation is sensible to the variations in the DMX inputs.
+The maximum position (B) needs to be set by the user depending on the switch position.
+To do so, change the "dmx_remapped" parameter in the void loop to match the number of steps chosen.  
+
+Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
+since you don't have a real notion of the fact that some automation may (or may not) be finished while still (or not yet)   
+appearing like a reached parameter from the DMX visual interface, since there is no way to interlace seconds to the equation.
+Therefore, while running motors at low speeds, one must ensure that even if the ramp on the DMX interface is going from 0 to 255 in
+a single second, to achieve a smooth look the stepper is forced to take more time to finish the action, differently from the example
+above wich is almost real-time.  
+note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
+
 
 ## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
 
