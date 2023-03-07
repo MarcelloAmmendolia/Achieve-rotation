@@ -79,6 +79,7 @@ note: - definire esatto numero di step da compiere una volta che l'hardware sarÃ
 
 
 ## DMX STEP MOTOR N.4 - POSITION CONTROL - FULLSTEP   
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/82780678/223495711-80044d38-4065-490f-9c1e-6d5025e9e710.gif)   
 FILE: Arduino Uno Dmx Position Control Microstepped 
 
 ðŸ“Œ CONSTANTS:  
