@@ -62,9 +62,9 @@ xxx
 DMX channel 2: Position to move to  
 DMX channel 3: Maximum Acceleration, interpolation between position 0 and target.  
 
-In this Sketch, the values coming from DMX are re-mapped to match a (32x200)steps motor.
-This comes with a smoother movement but is more difficult to analog-programming an installation (see Keep in Mind! ⬇️)
-After housing, the motor finds the 0 position.  
+In this Sketch, the values coming from DMX are re-mapped to match a (32x200)steps motor.  
+This comes with a smoother movement but is more difficult to analog-programming an installation (see Keep in Mind! ⬇️)  
+After housing, the motor finds the 0 position.   
 Then, the motor sniffs the bytes coming from the DMX calls,
 matching his position to them. (Example: if 255 is coming from the DMX, the motor will go to the last step of his full rotation).
 The rotation is sensible to the variations in the DMX inputs.
