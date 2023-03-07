@@ -16,7 +16,8 @@ https://www.youtube.com/watch?v=cPz5tE2EHR4
 Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html 
 
 With this configuration, it is possible to run until 3 step motors (and relative driver like the DRB8825)  
-for every Arduino + DMX Shield.  
+for every Arduino + DMX Shield. Then, is possible to daisy chain those devices to create a DMX linear connection
+between different modules.  
 
 Housing:
 
