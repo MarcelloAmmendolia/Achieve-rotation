@@ -44,13 +44,7 @@ Keep in mind!:  Programming this in a DMX graphic environment can be tricky
 since you don't have a real notion of how many steps you need to complete an action.  
 note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
 
-  
-
-## DMX STEP MOTOR N.2 - SHAFT  
-
-
-
-## DMX STEP MOTOR N.3 - POSITION CONTROL - MICROSTEPPED  
+## DMX STEP MOTOR N.2 - POSITION CONTROL - MICROSTEPPED  
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/82780678/223495711-80044d38-4065-490f-9c1e-6d5025e9e710.gif)  
 FILE: Arduino Uno Dmx Position Control Microstepped 
@@ -80,7 +74,7 @@ above wich is almost real-time.
 note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
 
 
-## DMX STEP MOTOR N.4 - POSITION CONTROL - FULLSTEP   
+## DMX STEP MOTOR N.3 - POSITION CONTROL - FULLSTEP   
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/82780678/223495711-80044d38-4065-490f-9c1e-6d5025e9e710.gif)   
 FILE: Arduino Uno Dmx Position Control Microstepped 
 
@@ -91,7 +85,7 @@ xxx
 DMX channel 2: Position to move to  
 DMX channel 3: Maximum Acceleration, interpolation between position 0 and target.  
 
-After housing (done w/microstepping to avoid problems), the motor finds the 0 position.  
+After housing (done w/microstepping to avoid problems), the motaft or finds the 0 position.  
 Then, the motor sniffs the bytes coming from the DMX calls,
 matching his position to them. (Example: if 255 is coming from the DMX, the motor will go to the last step of his full rotation).
 The rotation is sensible to the variations in the DMX inputs.
@@ -104,6 +98,14 @@ even tho, it's possible to threshold certain levels of acceleration and velocity
 note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
 
 
+## DMX STEP MOTOR N.4 - SHAFT  
+For a shaft with continuum movement,
+the library Accelstepper with distances comes handy.  
+See: https://github.com/mateusjunges/accel-stepper-with-distances  
+Or, on a regular sketch  
+int distanceToMove = 150; //(mm)  
+int numberOfSteps = distanceToMove*84.2; 
+Considering, however, that they are Integral and therefore the accuracy cannot be 100% in case of microstepping   
 
 
 
