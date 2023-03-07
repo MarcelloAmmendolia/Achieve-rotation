@@ -21,7 +21,7 @@ Housing:
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
 FILE:  DMX STEPPER PING PONG.INO  
 
-📌 CONSTANTS: 
+📌 CONSTANTS:  
 Angle of rotation (Number of Steps)  
 
 ▶️ INPUTS:  
