@@ -20,8 +20,8 @@ Housing:
 
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
 
-![ezgif com-resize](https://user-images.githubusercontent.com/82780678/223498276-6d8e5fbd-bbd3-4514-bdf4-7c42063e5c7e.gif)
-FILE: ARDUINO UNO DMX STEPPER PING PONG.INO  
+![ezgif com-resize](https://user-images.githubusercontent.com/82780678/223498276-6d8e5fbd-bbd3-4514-bdf4-7c42063e5c7e.gif)  
+FILE: Arduino Uno Dmx Stepper Ping Pong  
 
 📌 CONSTANTS:  
 Angle of rotation (Number of Steps)  
