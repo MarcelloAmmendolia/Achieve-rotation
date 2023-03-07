@@ -19,11 +19,14 @@ Housing:
 
 
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
+FILE:  DMX STEPPER PING PONG.INO  
+
+CONSTANTS: Angle of rotation (Number of Steps)  
 
 INPUTS:  
 DMX channel 1: velocity   
 DMX channel 2: acceleration  
-DMX channel 3: direction  
+DMX channel 3: direction  NOT ACHIEVED  
 
 After housing, the motor finds the 0 position.  
 The maximum position needs to be set by the user depending on the switch position.  
@@ -33,8 +36,11 @@ The rotation is sensible to the variations in the DMX inputs.
 Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
 since you don't have a real notion of how many steps you need to complete an action.  
 note: - definire esatto numero di step da compiere una volta che l'hardware sarà finito.  
+  
 
 ## DMX STEP MOTOR N.2 - SHAFT  
+
+
 ## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
 ## DMX STEP MOTOR N.4 - SERVO SYLE - MICROSTEPPED  
 
