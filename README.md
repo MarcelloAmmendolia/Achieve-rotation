@@ -15,9 +15,24 @@ https://www.youtube.com/watch?v=3odRT6zdzqk
 https://www.youtube.com/watch?v=cPz5tE2EHR4  
 Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html  
 
+Housing:
 
 
-## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG  
+## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
+
+INPUTS:  
+DMX channel 1: velocity   
+DMX channel 2: acceleration  
+DMX channel 3: direction  
+
+After housing, the motor finds the 0 position.  
+The maximum position needs to be set by the user depending on the switch position.
+Then, the motor rotates from A to B position. 
+The rotation is sensible to the variations in the DMX inputs.
+
+Keep in mind!:  Programming this in a DMX graphic environment can be tricky  
+since you don't have a real notion of how many steps you need to complete an action.  
+
 ## DMX STEP MOTOR N.2 - SHAFT  
 ## DMX STEP MOTOR N.3 - SERVO STYLE - 200 STEPS  
 ## DMX STEP MOTOR N.4 - SERVO SYLE - MICROSTEPPED  
