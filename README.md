@@ -21,7 +21,7 @@ Housing:
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
 
 ![ezgif com-reverse](https://user-images.githubusercontent.com/82780678/223487517-3209c555-cb8b-4760-9436-6b90e9d329e5.gif)  
-FILE:  DMX STEPPER PING PONG.INO  
+FILE: ARDUINO UNO DMX STEPPER PING PONG.INO  
 
 📌 CONSTANTS:  
 Angle of rotation (Number of Steps)  
