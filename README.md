@@ -22,6 +22,9 @@ between different modules.
 Housing:
 
 
+![Wiring diagram](https://user-images.githubusercontent.com/82780678/223590931-16438cad-5a97-4142-b64d-4a48d8c8bb12.png)
+
+
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
 
 ![ezgif com-resize](https://user-images.githubusercontent.com/82780678/223498276-6d8e5fbd-bbd3-4514-bdf4-7c42063e5c7e.gif)  
