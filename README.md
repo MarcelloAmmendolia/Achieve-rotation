@@ -7,6 +7,11 @@ Da comprare:
 Micro limit switch  
 Hall effect switch  
 Servo motor  
+IC MAX 485  
+Arduino Nano   
+DIP Switch   
+WS2812B CHIP  
+WS2811 CHIP  
 
 Risorse:  
 https://www.youtube.com/watch?v=YsLykxnHApg&t=3s  
