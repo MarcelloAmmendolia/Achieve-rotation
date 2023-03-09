@@ -65,13 +65,19 @@ dmx_slave.setStartAddress (1);
   stepper.setCurrentPosition(0);
   stepper.setMaxSpeed(10000);      // Set Max Speed of Stepper (Faster for regular movements)
   stepper.setAcceleration(40000);  // Set Acceleration of Stepper
+
+     pinMode (M0, OUTPUT);
+   pinMode (M1, OUTPUT);
+   pinMode (M2, OUTPUT);
+   digitalWrite(M0,LOW);
+   digitalWrite(M2,LOW);
+   digitalWrite(M1, LOW);
+  delay(5);
 }
 
 void loop() {
-  int dmx_remapped = dmx_slave.getChannelValue(3)*0.78431; // Remap DMX from 255 to 200 (Number of steps of a full round)  
-  int final_pos = dmx_remapped*32; // Multiply DMX for number of microsteps  
-  stepper.moveTo(final_pos); // Targeted position = dmx remapped to this specific motor.  
-  stepper.setSpeed(dmx_slave.getChannelValue(2)*50); 
+  int analog_in = dmx_slave.getChannelValue(3);
+  stepper.moveTo(analog_in);
+  stepper.setSpeed(400);
   stepper.runSpeedToPosition();
   }
- 
