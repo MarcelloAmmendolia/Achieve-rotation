@@ -1,24 +1,6 @@
 # Achieve-rotation  
 Achieve rotation w/ DC motors, servos, step motors.  
   
-Possibili limiting switch: Hall-effect switch, Micro limiting switches.  
-
-Da comprare:  
-Micro limit switch  
-Hall effect switch  
-Servo motor  
-IC MAX 485  
-Arduino Nano   
-DIP Switch   
-WS2812B CHIP  
-WS2811 CHIP  
-
-Risorse:  
-https://www.youtube.com/watch?v=YsLykxnHApg&t=3s  
-https://www.youtube.com/watch?v=0Xi7unlq1L4  
-https://www.youtube.com/watch?v=3odRT6zdzqk  
-https://www.youtube.com/watch?v=cPz5tE2EHR4  
-Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html 
 
 With this configuration, it is possible to run until 3 step motors (and relative driver like the DRB8825)  
 for every Arduino + DMX Shield. Then, is possible to daisy chain those devices to create a DMX linear connection
@@ -129,16 +111,23 @@ int numberOfSteps = distanceToMove*84.2;
 Considering, however, that they are Integral and therefore the accuracy cannot be 100% in case of microstepping   
 
 
+Possibili limiting switch: Hall-effect switch, Micro limiting switches.  
 
-# DMX:  
-
-Per controllo con Arduino Nano senza DMX shield:  
 Da comprare:  
+Micro limit switch  
+Hall effect switch  
+Servo motor  
 IC MAX 485  
-Arduino Nano  
-DIP Switch  
+Arduino Nano   
+DIP Switch   
+WS2812B CHIP  
+WS2811 CHIP  
 
-
-
+Risorse:  
+https://www.youtube.com/watch?v=YsLykxnHApg&t=3s  
+https://www.youtube.com/watch?v=0Xi7unlq1L4  
+https://www.youtube.com/watch?v=3odRT6zdzqk  
+https://www.youtube.com/watch?v=cPz5tE2EHR4  
+Libreria Accel-stepper: https://www.airspayce.com/mikem/arduino/AccelStepper/examples.html 
 
 
