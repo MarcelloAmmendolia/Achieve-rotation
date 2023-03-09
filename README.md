@@ -19,9 +19,21 @@ With this configuration, it is possible to run until 3 step motors (and relative
 for every Arduino + DMX Shield. Then, is possible to daisy chain those devices to create a DMX linear connection
 between different modules.  
 
-Housing:
+Precautions:  
+To load the sketch onto the arduino,  
+you must move the plastic pin to the Disabled position,   
+and then return it to its original position (EN) once the operation is complete.  
 
-Hardware and wiring:  
+Housing: 
+Since stepper motors are not aware of their position when given power,  
+the "housing" procedure makes use of a micro switch activated by pressure   
+from an additional component to the motor.  
+The code sees the motor move slowly in a counterclockwise direction until  
+the switch is pressed. After that, the motor moves to the opposite position   
+until the switch signal is restored. The position is then recorded as position   
+0 and lower limit of movement.  
+
+Hardware and wiring:  SEE THE ATTACHED SCHEME IN FILES  //  
 
 
 ## DMX STEP MOTOR N.1 - BASIC CONTINUUM PING PONG 
