@@ -24,7 +24,7 @@ To load the sketch onto the arduino,
 you must move the plastic pin to the Disabled position,   
 and then return it to its original position (EN) once the operation is complete.  
 
-Housing: 
+Housing:   
 Since stepper motors are not aware of their position when given power,  
 the "housing" procedure makes use of a micro switch activated by pressure   
 from an additional component to the motor.  
